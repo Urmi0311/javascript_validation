@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="main2.css">
+
+</head>
+<body>
+<div id="output"></div>
+    <script>
+        
+        let first_name = localStorage.getItem("firstname");
+        let last_name = localStorage.getItem("lastname");
+
+        let text = `Welcome ${first_name} ${last_name}`; 
+        document.getElementById("output").innerHTML = text;
+
+    </script>
+</body>
+</html>

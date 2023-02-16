@@ -1,0 +1,29 @@
+body {
+
+  margin: 2%;
+  background-image: url(photo-1625225230517-7426c1be750c.jpeg);
+  background-size: 100%;
+  text-align: center;
+
+}
+
+/* .re h1{
+  text-align: center;
+  padding-left: 50%;
+} */
+form li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.container {
+  border: 5px solid black;
+  margin: 3% 36% 10% 40%;
+  border-color: gray;
+  border-radius: 12%;
+  padding: 2% 2% 4% 0%;
+  font-size: 20px;
+}
+
+
+

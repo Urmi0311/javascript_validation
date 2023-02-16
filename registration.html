@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Registration Form</title>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>Registration Form</h1>
+        <form name="Registration" action="output.html" onsubmit="return validateForm()" method="post">
+            <div class="container">
+                <div class="form">
+                    <div class="box">
+                        <ul>
+                            <li><label for="firstname">First Name</label></li>
+                            <li><input type="text" id="firstname" name="firstname" /></li>
+
+                            <li><label for="lastname">Last Name</label></li>
+                            <li><input type="text" id="lastname" name="lastname" /></li>
+
+                            <li><label for="email">E-mail</label></li>
+                            <li><input type="text" id="email" name="email" /></li>
+
+                            
+                                <li><label for="password">Password</label></li>
+                                <li><input type="password" id="password" name="password" /></li>
+                                <li><input type="checkbox" onclick="Toogle()">Show Password</li>
+
+                            <li><input type="submit" name="submit" value="Submit" onclick="addData()" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
