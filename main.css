@@ -23,7 +23,11 @@ form li {
   border-radius: 12%;
   padding: 2% 2% 4% 0%;
   font-size: 20px;
+  text-align: left;
 }
 
+.sub{
+  text-align: center;
+}
 
 
